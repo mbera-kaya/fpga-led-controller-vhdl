@@ -18,7 +18,7 @@ begin
     clk_div : entity work.clock_divider
         generic map (
             CLK_FREQ => 100_000_000,
-            OUT_FREQ => 1000      -- 🔥 HIZLI
+            OUT_FREQ => 1000      
         )
         port map (
             clk     => clk,
