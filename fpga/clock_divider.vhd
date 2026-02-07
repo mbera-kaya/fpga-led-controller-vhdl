@@ -4,8 +4,8 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity clock_divider is
     generic (
-        CLK_FREQ : integer := 100_000_000; -- FPGA clock
-        OUT_FREQ : integer := 1000         -- 🔥 SİMÜLASYON İÇİN HIZLI
+        CLK_FREQ : integer := 100_000_000; 
+        OUT_FREQ : integer := 1000         
     );
     port (
         clk     : in  std_logic;
